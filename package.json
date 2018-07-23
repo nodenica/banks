@@ -1,0 +1,17 @@
+{
+  "name": "banks",
+  "version": "0.0.1",
+  "description": "Bancos",
+  "main": "index.js",
+  "repository": "https://github.com/nodenica/banks.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^4.6.2"
+  },
+  "scripts": {
+    "selenium": "java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar",
+    "start": "node index.js",
+    "run":"yarn selenium & yarn start"
+  }
+}

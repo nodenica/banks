@@ -1,2 +1,6 @@
 # banks
-Bancos
+
+Saldo de Banpro.
+
+    $ yarn selenium
+    $ yarn start
